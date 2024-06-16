@@ -19,7 +19,7 @@ public class ExportNumber {
     public int solution2(String str){
         int answer = 0;
         for(char x : str.toCharArray()){
-            System.out.println("x : " + x + " / answer : " + answer);
+        //    System.out.println("x : " + x + " / answer : " + answer);
             if(x>=48 && x<= 57) answer=answer*10+(x);
         }
         return answer;
